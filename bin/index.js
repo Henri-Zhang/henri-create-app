@@ -1,9 +1,8 @@
 #! /usr/bin/env node
 
-// const program = require('commander');
-// const chalk = require('chalk');
 const chalk = require('chalk');
 const mkdirp = require('mkdirp');
+const generator = require('./generator');
 
 // 获取项目名称参数
 const name = process.argv[2];
@@ -15,3 +14,9 @@ console.log('开始创建...');
 mkdirp.sync(name, err => {
   console.log(err);
 });
+
+new generator({
+  name,
+  env: { cwd: process.cwd() },
+  resolved: require.resolve(`../app`)
+}).writing();

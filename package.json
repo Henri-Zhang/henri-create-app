@@ -1,0 +1,25 @@
+{
+  "name": "henri-create-app",
+  "version": "1.0.0",
+  "description": "Create a React application using the command line. A custum project structure by Henri.",
+  "homepage": "https://github.com/Henri-Zhang/henri-create-app",
+  "bugs": {
+    "url": "https://github.com/Henri-Zhang/henri-create-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Henri-Zhang/henri-create-app"
+  },
+  "license": "MIT",
+  "bin": {
+    "henri-create-app": "./bin/index.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.4",
+    "yeoman-generator": "^4.0.1"
+  },
+  "author": {
+    "name": "henri.zhang",
+    "email": "henrizhang@qq.com"
+  }
+}
