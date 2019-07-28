@@ -1,0 +1,23 @@
+{
+  "name": "apm",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Henri React project.",
+  "scripts": {
+    "start": "wait..."
+  },
+  "devDependencies": {},
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
