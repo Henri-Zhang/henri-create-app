@@ -1,5 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Layout from './layouts';
+import Router from './routers';
+import { VerticalLayout } from './layouts';
 
-ReactDOM.render(<Layout />, document.getElementById('henri'));
+ReactDOM.render(
+  <VerticalLayout>
+    <Router />
+  </VerticalLayout>,
+  document.getElementById('henri')
+);

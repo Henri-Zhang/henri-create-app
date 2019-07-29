@@ -1,14 +1,5 @@
-import React from 'react';
+import VerticalLayout from './verticaLayout';
 
-const Layout = props => {
-  const { children } = props;
-
-  return (
-    <div>
-      <h1>Welcome to the React world.</h1>
-      {children}
-    </div>
-  );
+export {
+  VerticalLayout
 };
-
-export default Layout;
