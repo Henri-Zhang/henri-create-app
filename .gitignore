@@ -3,3 +3,7 @@
 /yarn.lock
 
 /.DS_Store
+
+/bin/generators/templates/node_modules
+
+/bin/generators/templates/yarn.lock
