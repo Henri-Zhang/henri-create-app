@@ -4,6 +4,6 @@
 
 /.DS_Store
 
-/bin/generators/templates/node_modules
+/lib/generators/templates/node_modules
 
-/bin/generators/templates/yarn.lock
+/lib/generators/templates/yarn.lock
