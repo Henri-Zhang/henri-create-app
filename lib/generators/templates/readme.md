@@ -1,3 +1,3 @@
-# Henri
+# Project
 
 A simple React project.
