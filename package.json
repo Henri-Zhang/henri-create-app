@@ -11,6 +11,10 @@
     "url": "https://github.com/Henri-Zhang/henri-create-app"
   },
   "license": "MIT",
+  "keywords": [
+    "React",
+    "cli"
+  ],
   "bin": {
     "henri-create-app": "./bin/index.js"
   },
