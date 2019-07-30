@@ -65,7 +65,3 @@ Inside that directory, it will generate the initial project structure and instal
 │   └── util.js
 └── webpack.config.js
 ```
-
----
-
-# Keywords
