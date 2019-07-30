@@ -1,8 +1,8 @@
 {
-  "name": "henri",
+  "name": "<%= name %>",
   "private": true,
   "version": "1.0.0",
-  "description": "A Henri React project.",
+  "description": "A React project.",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

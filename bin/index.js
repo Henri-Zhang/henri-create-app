@@ -4,7 +4,7 @@ const yParser = require('yargs-parser');
 const chalk = require('chalk');
 const mkdirp = require('mkdirp');
 const path = require('path');
-const Generator = require('./generators');
+const Generator = require('../lib/generators');
 
 // 获取项目名称参数
 const args = yParser(process.argv.slice(2));
@@ -21,7 +21,7 @@ cwd = path.join(cwd, name);
 const generator = new Generator({
   name,
   env: { cwd },
-  resolved: require.resolve('./generators'),
+  resolved: require.resolve('../lib/generators'),
   args
 });
 
