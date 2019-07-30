@@ -4,6 +4,8 @@
 
 /.DS_Store
 
+/lib/generators/templates/dist
+
 /lib/generators/templates/node_modules
 
 /lib/generators/templates/yarn.lock
