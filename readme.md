@@ -1,6 +1,6 @@
 # Henri Create App [![PRs](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/Henri-Zhang/henri-create-app/pulls)
 
-Creates a React application using the command line. A custum project structure by Henri.
+Create a React application using the command line. A custom project structure by Henri.
 
 ---
 
