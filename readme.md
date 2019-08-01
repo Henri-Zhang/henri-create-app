@@ -28,7 +28,7 @@ It will create a directory called `myApp` inside the current folder.
 Inside that directory, it will generate the initial project structure and install the transitive dependencies:
 
 ```
-├── _gitignore
+├── .gitignore
 ├── config
 │   └── config.js
 ├── package.json
