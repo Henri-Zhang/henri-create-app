@@ -1,6 +1,6 @@
 {
   "name": "henri-create-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a React application using the command line. A custum project structure by Henri.",
   "homepage": "https://github.com/Henri-Zhang/henri-create-app",
   "bugs": {
