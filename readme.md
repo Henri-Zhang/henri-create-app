@@ -28,7 +28,7 @@ It will create a directory called `myApp` inside the current folder.
 Inside that directory, it will generate the initial project structure and install the transitive dependencies:
 
 ```
-├── .gitignore
+├── _gitignore
 ├── config
 │   └── config.js
 ├── package.json
@@ -40,28 +40,32 @@ Inside that directory, it will generate the initial project structure and instal
 │   ├── assets
 │   │   └── avatar.png
 │   ├── components
-│   │   └── SpinCircle.js
+│   │   └── SpinCircle
+│   │       ├── index.css
+│   │       └── index.js
 │   ├── datas
 │   │   └── data.json
 │   ├── index.js
 │   ├── layouts
-│   │   ├── index.js
-│   │   └── verticaLayout
-│   │   ├── Footer.js
-│   │   ├── Header.js
+│   │   ├── VerticaLayout
+│   │   │   ├── Footer.js
+│   │   │   ├── Header.js
+│   │   │   └── index.js
+│   │   ├── index.css
 │   │   └── index.js
 │   ├── models
 │   │   └── root.js
 │   ├── pages
 │   │   ├── Home
+│   │   │   ├── index.css
 │   │   │   └── index.js
-│   │   └── NoPage
-│   │   └── index.js
+│   │   └── NotFound
+│   │       └── index.js
 │   ├── routers
 │   │   └── index.js
 │   ├── services
 │   │   └── root.js
 │   └── utils
-│   └── util.js
+│       └── util.js
 └── webpack.config.js
 ```
